@@ -3020,10 +3020,10 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .image:before {
-				-moz-transition: opacity 1s ease;
+				/* -moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
+				transition: opacity 1s ease; */
 				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
@@ -3036,10 +3036,10 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .image:after {
-				-moz-transition: opacity 1s ease;
+				/* -moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
+				transition: opacity 1s ease; */
 				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
@@ -3924,4 +3924,12 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		.rotate90 {
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
 		}
