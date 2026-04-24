@@ -1,7 +1,7 @@
 body {
     background-color: paleturquoise;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-right: 50px;
     font-family: Arial, sans-serif;
 }
@@ -10,6 +10,7 @@ body {
 .navbar {
     width: 100%;
     background-color: crimson;
+    margin-right: 10px;
   }
   
   /* Navbar links */
@@ -38,4 +39,107 @@ body {
   .active {
     background-color: #04AA6D;
   }
-  
+
+  /* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    color: turquoise;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebar a {
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: turquoise;
+    display: block;
+  }
+
+  .sidebar p {
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: turquoise;
+    display: block;
+  }
+
+  .sidebar h2 {
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: turquoise;
+    display: block;
+  }
+
+  .sidebar h3 {
+    padding: 10px 5px 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: turquoise;
+    display: block;
+  }
+
+.redsquare {
+  height: 5px;
+  width: 1175px;
+  background-color: red;
+  padding:none;
+}
+
+.orangesquare {
+  height: 5px;
+  width: 1175px;
+  background-color: orange;
+  padding:none;
+}
+
+.yellowsquare {
+  height: 5px;
+  width: 1175px;
+  background-color: yellow;
+  padding:none;
+}
+
+.greensquare {
+  height: 5px;
+  width: 1175px;
+  background-color: green;
+  padding:none;
+}
+
+.bluesquare {
+  height: 5px;
+  width: 1175px;
+  background-color: blue;
+  padding:none;
+}
+
+.indigosquare {
+  height: 5px;
+  width: 1175px;
+  background-color: indigo;
+  padding:none;
+}
+
+.scoreboard {
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+
+html {
+  width: 1475px;
+  height: 100%;
+  margin-left: 30px;
+}
